@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<title>工具1.0 beta</title>
+
+	<link href="/cdn/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/cdn/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" >
+	<link href="/cdn/css/main.css" rel="stylesheet">
+	
+</head>
+<body>
+	<!-- 导航条  大的  向下的时候变成小的 -->
+	<div>
+		<!-- 导航 -->
+		<nav class="navbar navbar-fixed-top">
+			<div  id="bar" class="bar">
+				<div class="logo fl">
+                	<a href="/">
+                		<img src="/cdn/image/logogo.png" class="logoimage">
+                		<span>叮当助手</span>
+                	</a>
+	            </div>
+	            <div class="mine fr">
+	                <div class="login">
+	                    <a href="javascript:;" data-pop="login">登录</a><a href="javascript:;" data-pop="register">注册</a>
+	                </div>
+	            </div>
+	            <div class="search fr row">
+	                <form method="POST" target="_blank" action="/search/">
+	                    <input type="hidden" name="_xsrf" value="2|6e3cfe05|d4b8f11562469dc68947a0cd6d8fa9bd|1437721686">
+	                    <input type="text" class="key fl" name="searchStr">
+	                    <button type="submit" class="sbtn fr">
+	                    	<i class="fa fa-search"></i>
+	                    </button>
+	                </form>
+            	</div>
+				<div class="menu">
+	                <a href="/channel/2/" target="_blank">人事</a>
+	                <a href="/channel/3/" target="_blank">财务</a>
+	                <a href="/channel/4/" target="_blank">TODO</a>
+				</div>
+
+            </div>
+		</nav>
+
+		<!-- main -->
+		<div class="main">
+			<div class="left">
+				<img src="/cdn/image/icon1.jpeg" class="item-base">
+			</div>
+			<div class="right " >
+				
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="cdn/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="cdn/js/bootstrap.js"></script>
+</html>
